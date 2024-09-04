@@ -1,15 +1,13 @@
 package inheritance;
 
-//A Grand parent class in diamond 
 class GrandParent 
 { 
  void fun() 
  { 
      System.out.println("Grandparent"); 
  } 
-} 
+}
 
-//First Parent class 
 class Parent1 extends GrandParent 
 { 
  void fun() 
@@ -21,7 +19,6 @@ class Parent1 extends GrandParent
  }
 } 
 
-//Second Parent Class 
 class Parent2 extends GrandParent 
 { 
  void fun() 
@@ -36,7 +33,4 @@ public class Hierarchical {
 		Parent1 p = new Parent1();
 		p.funp();
 	}
-	
-
-
 }
